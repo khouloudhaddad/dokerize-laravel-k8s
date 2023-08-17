@@ -1,4 +1,4 @@
-FROM node:15.5-alpine AS assets-build
+FROM node:16-alpine AS assets-build
 WORKDIR /var/www/html
 COPY . /var/www/html/
 
